@@ -1,6 +1,6 @@
-class Ninja {
+class Sensei {
     constructor(name) {
-        this.name = name;
+        this.name = "Maestro Splinter";
         this.health = 200;
         this.speed = 10;
         this.strength = 10;
@@ -20,7 +20,7 @@ class Ninja {
     }
 }
 
-const ninja = new Ninja("Karate Kid");
+const superSensei = new Sensei("Mr. Miyagi");
 ninja.speakWisdom();
 ninja.showStats();
 ninja.drinkSake();
