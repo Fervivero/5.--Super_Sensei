@@ -21,6 +21,6 @@ class Ninja {
 }
 
 const ninja = new Ninja("Karate Kid");
+ninja.speakWisdom();
 ninja.showStats();
 ninja.drinkSake();
-ninja.speakWisdom();
